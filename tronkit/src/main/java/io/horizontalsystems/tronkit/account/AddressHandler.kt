@@ -1,7 +1,7 @@
 package io.definenulls.tronkit.account
 
-import io.definenulls.hdwalletkit.Base58
-import io.definenulls.hdwalletkit.Utils
+import io.horizontalsystems.hdwalletkit.Base58
+import io.horizontalsystems.hdwalletkit.Utils
 import io.definenulls.tronkit.network.Network
 
 

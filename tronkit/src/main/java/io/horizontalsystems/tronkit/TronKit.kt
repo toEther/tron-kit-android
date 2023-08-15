@@ -3,7 +3,7 @@ package io.definenulls.tronkit
 import android.app.Application
 import android.content.Context
 import com.google.gson.Gson
-import io.definenulls.hdwalletkit.Mnemonic
+import io.horizontalsystems.hdwalletkit.Mnemonic
 import io.definenulls.tronkit.account.AccountInfoManager
 import io.definenulls.tronkit.contracts.ContractMethodHelper
 import io.definenulls.tronkit.contracts.trc20.TransferMethod
