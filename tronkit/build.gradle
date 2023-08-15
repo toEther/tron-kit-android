@@ -65,7 +65,7 @@ android {
 
 dependencies {
 
-    implementation 'com.github.toEther:hd-wallet-kit-android:66c2544'
+    implementation 'com.github.toEther:hd-wallet-kit-android:b6bb91e'
 
     implementation 'org.bouncycastle:bcpkix-jdk15on:1.70'
 
