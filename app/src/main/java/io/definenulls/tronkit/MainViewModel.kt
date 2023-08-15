@@ -7,7 +7,7 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.hdwalletkit.Mnemonic
+import io.definenulls.hdwalletkit.Mnemonic
 import io.definenulls.tronkit.models.Address
 import io.definenulls.tronkit.models.FullTransaction
 import io.definenulls.tronkit.network.Network
