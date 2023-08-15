@@ -1,4 +1,4 @@
-package io.horizontalsystems.tronkit.contracts
+package io.definenulls.tronkit.contracts
 
 // Class for solidity type bytes32[]
 class Bytes32Array(val array: Array<ByteArray>)

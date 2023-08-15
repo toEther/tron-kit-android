@@ -1,4 +1,4 @@
-package io.horizontalsystems.tronkit.crypto;
+package io.definenulls.tronkit.crypto;
 
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 
@@ -15,8 +15,8 @@ public final class InternalBouncyCastleProvider {
 
             INSTANCE = (p != null) ? p : new BouncyCastleProvider();
 
-            INSTANCE.put("MessageDigest.ETH-KECCAK-256", "io.horizontalsystems.tronkit.crypto.digest.Keccak256");
-            INSTANCE.put("MessageDigest.ETH-KECCAK-512", "io.horizontalsystems.tronkit.crypto.digest.Keccak512");
+            INSTANCE.put("MessageDigest.ETH-KECCAK-256", "io.definenulls.tronkit.crypto.digest.Keccak256");
+            INSTANCE.put("MessageDigest.ETH-KECCAK-512", "io.definenulls.tronkit.crypto.digest.Keccak512");
         }
     }
 

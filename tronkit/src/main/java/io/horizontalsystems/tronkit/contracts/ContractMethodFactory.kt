@@ -1,4 +1,4 @@
-package io.horizontalsystems.tronkit.contracts
+package io.definenulls.tronkit.contracts
 
 interface ContractMethodFactory {
 

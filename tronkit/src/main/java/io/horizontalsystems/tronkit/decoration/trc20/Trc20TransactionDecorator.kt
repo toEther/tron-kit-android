@@ -1,17 +1,17 @@
-package io.horizontalsystems.tronkit.decoration.trc20
+package io.definenulls.tronkit.decoration.trc20
 
-import io.horizontalsystems.tronkit.models.Address
-import io.horizontalsystems.tronkit.contracts.trc20.ApproveMethod
-import io.horizontalsystems.tronkit.contracts.ContractMethodFactories
-import io.horizontalsystems.tronkit.contracts.trc20.ApproveMethodFactory
-import io.horizontalsystems.tronkit.contracts.trc20.TransferMethod
-import io.horizontalsystems.tronkit.contracts.trc20.TransferMethodFactory
-import io.horizontalsystems.tronkit.decoration.Event
-import io.horizontalsystems.tronkit.decoration.ITransactionDecorator
-import io.horizontalsystems.tronkit.decoration.TransactionDecoration
-import io.horizontalsystems.tronkit.hexStringToByteArray
-import io.horizontalsystems.tronkit.models.InternalTransaction
-import io.horizontalsystems.tronkit.models.TriggerSmartContract
+import io.definenulls.tronkit.models.Address
+import io.definenulls.tronkit.contracts.trc20.ApproveMethod
+import io.definenulls.tronkit.contracts.ContractMethodFactories
+import io.definenulls.tronkit.contracts.trc20.ApproveMethodFactory
+import io.definenulls.tronkit.contracts.trc20.TransferMethod
+import io.definenulls.tronkit.contracts.trc20.TransferMethodFactory
+import io.definenulls.tronkit.decoration.Event
+import io.definenulls.tronkit.decoration.ITransactionDecorator
+import io.definenulls.tronkit.decoration.TransactionDecoration
+import io.definenulls.tronkit.hexStringToByteArray
+import io.definenulls.tronkit.models.InternalTransaction
+import io.definenulls.tronkit.models.TriggerSmartContract
 
 class Trc20TransactionDecorator(
     private val userAddress: Address

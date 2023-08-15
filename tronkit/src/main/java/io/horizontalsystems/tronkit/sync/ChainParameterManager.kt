@@ -1,8 +1,8 @@
-package io.horizontalsystems.tronkit.sync
+package io.definenulls.tronkit.sync
 
-import io.horizontalsystems.tronkit.TronKit
-import io.horizontalsystems.tronkit.database.Storage
-import io.horizontalsystems.tronkit.network.TronGridService
+import io.definenulls.tronkit.TronKit
+import io.definenulls.tronkit.database.Storage
+import io.definenulls.tronkit.network.TronGridService
 
 class ChainParameterManager(
     private val tronGridService: TronGridService,

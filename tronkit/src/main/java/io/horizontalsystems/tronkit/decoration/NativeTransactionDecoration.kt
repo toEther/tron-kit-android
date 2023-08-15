@@ -1,10 +1,10 @@
-package io.horizontalsystems.tronkit.decoration
+package io.definenulls.tronkit.decoration
 
-import io.horizontalsystems.tronkit.models.Address
-import io.horizontalsystems.tronkit.models.Contract
-import io.horizontalsystems.tronkit.models.TransactionTag
-import io.horizontalsystems.tronkit.models.TransferAssetContract
-import io.horizontalsystems.tronkit.models.TransferContract
+import io.definenulls.tronkit.models.Address
+import io.definenulls.tronkit.models.Contract
+import io.definenulls.tronkit.models.TransactionTag
+import io.definenulls.tronkit.models.TransferAssetContract
+import io.definenulls.tronkit.models.TransferContract
 
 class NativeTransactionDecoration(
     val contract: Contract

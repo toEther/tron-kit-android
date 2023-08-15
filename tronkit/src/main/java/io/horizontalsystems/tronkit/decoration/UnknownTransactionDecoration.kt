@@ -1,9 +1,9 @@
-package io.horizontalsystems.tronkit.decoration
+package io.definenulls.tronkit.decoration
 
-import io.horizontalsystems.tronkit.models.Address
-import io.horizontalsystems.tronkit.models.InternalTransaction
-import io.horizontalsystems.tronkit.models.TransactionTag
-import io.horizontalsystems.tronkit.models.TriggerSmartContract
+import io.definenulls.tronkit.models.Address
+import io.definenulls.tronkit.models.InternalTransaction
+import io.definenulls.tronkit.models.TransactionTag
+import io.definenulls.tronkit.models.TriggerSmartContract
 import java.math.BigInteger
 
 class UnknownTransactionDecoration(

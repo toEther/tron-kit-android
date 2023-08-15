@@ -1,15 +1,15 @@
-package io.horizontalsystems.tronkit.rpc
+package io.definenulls.tronkit.rpc
 
-import io.horizontalsystems.tronkit.contracts.ContractMethodHelper
-import io.horizontalsystems.tronkit.contracts.trc20.DecimalsMethod
-import io.horizontalsystems.tronkit.contracts.trc20.NameMethod
-import io.horizontalsystems.tronkit.contracts.trc20.SymbolMethod
-import io.horizontalsystems.tronkit.decoration.TokenInfo
-import io.horizontalsystems.tronkit.models.Address
-import io.horizontalsystems.tronkit.network.Network
-import io.horizontalsystems.tronkit.network.TronGridService
-import io.horizontalsystems.tronkit.toBigInteger
-import io.horizontalsystems.tronkit.toHexString
+import io.definenulls.tronkit.contracts.ContractMethodHelper
+import io.definenulls.tronkit.contracts.trc20.DecimalsMethod
+import io.definenulls.tronkit.contracts.trc20.NameMethod
+import io.definenulls.tronkit.contracts.trc20.SymbolMethod
+import io.definenulls.tronkit.decoration.TokenInfo
+import io.definenulls.tronkit.models.Address
+import io.definenulls.tronkit.network.Network
+import io.definenulls.tronkit.network.TronGridService
+import io.definenulls.tronkit.toBigInteger
+import io.definenulls.tronkit.toHexString
 
 class Trc20Provider(
     private val tronGridService: TronGridService

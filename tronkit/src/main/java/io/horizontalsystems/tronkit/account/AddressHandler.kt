@@ -1,8 +1,8 @@
-package io.horizontalsystems.tronkit.account
+package io.definenulls.tronkit.account
 
-import io.horizontalsystems.hdwalletkit.Base58
-import io.horizontalsystems.hdwalletkit.Utils
-import io.horizontalsystems.tronkit.network.Network
+import io.definenulls.hdwalletkit.Base58
+import io.definenulls.hdwalletkit.Utils
+import io.definenulls.tronkit.network.Network
 
 
 object AddressHandler {

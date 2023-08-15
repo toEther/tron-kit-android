@@ -1,4 +1,4 @@
-package io.horizontalsystems.tronkit
+package io.definenulls.tronkit
 
 import android.util.Log
 import androidx.compose.runtime.getValue
@@ -7,13 +7,13 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.hdwalletkit.Mnemonic
-import io.horizontalsystems.tronkit.models.Address
-import io.horizontalsystems.tronkit.models.FullTransaction
-import io.horizontalsystems.tronkit.network.Network
-import io.horizontalsystems.tronkit.rpc.Trc20Provider
-import io.horizontalsystems.tronkit.transaction.Fee
-import io.horizontalsystems.tronkit.transaction.Signer
+import io.definenulls.hdwalletkit.Mnemonic
+import io.definenulls.tronkit.models.Address
+import io.definenulls.tronkit.models.FullTransaction
+import io.definenulls.tronkit.network.Network
+import io.definenulls.tronkit.rpc.Trc20Provider
+import io.definenulls.tronkit.transaction.Fee
+import io.definenulls.tronkit.transaction.Signer
 import kotlinx.coroutines.launch
 import java.math.BigInteger
 

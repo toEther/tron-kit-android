@@ -1,6 +1,6 @@
-package io.horizontalsystems.tronkit.contracts.trc20
+package io.definenulls.tronkit.contracts.trc20
 
-import io.horizontalsystems.tronkit.contracts.ContractMethod
+import io.definenulls.tronkit.contracts.ContractMethod
 
 
 class NameMethod: ContractMethod() {

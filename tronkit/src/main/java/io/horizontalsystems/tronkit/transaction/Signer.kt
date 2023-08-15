@@ -1,13 +1,13 @@
-package io.horizontalsystems.tronkit.transaction
+package io.definenulls.tronkit.transaction
 
-import io.horizontalsystems.hdwalletkit.ECKey
-import io.horizontalsystems.hdwalletkit.HDWallet
-import io.horizontalsystems.tronkit.crypto.Utils
-import io.horizontalsystems.tronkit.hexStringToByteArray
-import io.horizontalsystems.tronkit.models.Address
-import io.horizontalsystems.tronkit.network.CreatedTransaction
-import io.horizontalsystems.tronkit.network.Network
-import io.horizontalsystems.tronkit.toRawHexString
+import io.definenulls.hdwalletkit.ECKey
+import io.definenulls.hdwalletkit.HDWallet
+import io.definenulls.tronkit.crypto.Utils
+import io.definenulls.tronkit.hexStringToByteArray
+import io.definenulls.tronkit.models.Address
+import io.definenulls.tronkit.network.CreatedTransaction
+import io.definenulls.tronkit.network.Network
+import io.definenulls.tronkit.toRawHexString
 import java.math.BigInteger
 
 class Signer(
@@ -15,7 +15,7 @@ class Signer(
 ) {
 
     fun sign(createdTransaction: CreatedTransaction): ByteArray {
-        val rawTransactionHash = io.horizontalsystems.hdwalletkit.Utils.sha256(createdTransaction.raw_data_hex.hexStringToByteArray())
+        val rawTransactionHash = io.definenulls.hdwalletkit.Utils.sha256(createdTransaction.raw_data_hex.hexStringToByteArray())
 
         return Utils.ellipticSign(rawTransactionHash, privateKey)
     }

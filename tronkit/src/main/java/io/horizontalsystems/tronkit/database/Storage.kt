@@ -1,15 +1,15 @@
-package io.horizontalsystems.tronkit.database
+package io.definenulls.tronkit.database
 
 import androidx.sqlite.db.SimpleSQLiteQuery
-import io.horizontalsystems.tronkit.models.Balance
-import io.horizontalsystems.tronkit.models.ChainParameter
-import io.horizontalsystems.tronkit.models.InternalTransaction
-import io.horizontalsystems.tronkit.models.LastBlockHeight
-import io.horizontalsystems.tronkit.models.Transaction
-import io.horizontalsystems.tronkit.models.TransactionSyncState
-import io.horizontalsystems.tronkit.models.TransactionTag
-import io.horizontalsystems.tronkit.models.Trc20Balance
-import io.horizontalsystems.tronkit.models.Trc20EventRecord
+import io.definenulls.tronkit.models.Balance
+import io.definenulls.tronkit.models.ChainParameter
+import io.definenulls.tronkit.models.InternalTransaction
+import io.definenulls.tronkit.models.LastBlockHeight
+import io.definenulls.tronkit.models.Transaction
+import io.definenulls.tronkit.models.TransactionSyncState
+import io.definenulls.tronkit.models.TransactionTag
+import io.definenulls.tronkit.models.Trc20Balance
+import io.definenulls.tronkit.models.Trc20EventRecord
 import java.math.BigInteger
 
 class Storage(

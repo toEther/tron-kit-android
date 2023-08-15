@@ -1,10 +1,10 @@
-package io.horizontalsystems.tronkit.database
+package io.definenulls.tronkit.database
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import io.horizontalsystems.tronkit.models.ChainParameter
+import io.definenulls.tronkit.models.ChainParameter
 
 @Dao
 interface ChainParameterDao {

@@ -1,9 +1,9 @@
-package io.horizontalsystems.tronkit.models
+package io.definenulls.tronkit.models
 
-import io.horizontalsystems.tronkit.account.AddressHandler
-import io.horizontalsystems.tronkit.hexStringToByteArray
-import io.horizontalsystems.tronkit.network.Network
-import io.horizontalsystems.tronkit.toRawHexString
+import io.definenulls.tronkit.account.AddressHandler
+import io.definenulls.tronkit.hexStringToByteArray
+import io.definenulls.tronkit.network.Network
+import io.definenulls.tronkit.toRawHexString
 
 data class Address(
     val raw: ByteArray

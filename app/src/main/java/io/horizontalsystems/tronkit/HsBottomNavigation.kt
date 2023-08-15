@@ -1,4 +1,4 @@
-package io.horizontalsystems.tronkit
+package io.definenulls.tronkit
 
 import androidx.compose.animation.core.FastOutSlowInEasing
 import androidx.compose.animation.core.TweenSpec

@@ -1,8 +1,8 @@
-package io.horizontalsystems.tronkit.decoration
+package io.definenulls.tronkit.decoration
 
-import io.horizontalsystems.tronkit.decoration.trc20.Trc20ApproveEvent
-import io.horizontalsystems.tronkit.decoration.trc20.Trc20TransferEvent
-import io.horizontalsystems.tronkit.models.Trc20EventRecord
+import io.definenulls.tronkit.decoration.trc20.Trc20ApproveEvent
+import io.definenulls.tronkit.decoration.trc20.Trc20TransferEvent
+import io.definenulls.tronkit.models.Trc20EventRecord
 
 object EventHelper {
 

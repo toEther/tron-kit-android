@@ -1,4 +1,4 @@
-package io.horizontalsystems.tronkit.database
+package io.definenulls.tronkit.database
 
 import androidx.room.Dao
 import androidx.room.Insert
@@ -6,10 +6,10 @@ import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.RawQuery
 import androidx.sqlite.db.SupportSQLiteQuery
-import io.horizontalsystems.tronkit.models.InternalTransaction
-import io.horizontalsystems.tronkit.models.Transaction
-import io.horizontalsystems.tronkit.models.TransactionSyncState
-import io.horizontalsystems.tronkit.models.Trc20EventRecord
+import io.definenulls.tronkit.models.InternalTransaction
+import io.definenulls.tronkit.models.Transaction
+import io.definenulls.tronkit.models.TransactionSyncState
+import io.definenulls.tronkit.models.Trc20EventRecord
 
 @Dao
 interface TransactionDao {

@@ -1,4 +1,4 @@
-package io.horizontalsystems.tronkit.network
+package io.definenulls.tronkit.network
 
 enum class Network(
     val id: Int,

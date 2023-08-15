@@ -1,10 +1,10 @@
-package io.horizontalsystems.tronkit.models
+package io.definenulls.tronkit.models
 
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.google.protobuf.Any
 import com.google.protobuf.ByteString
-import io.horizontalsystems.tronkit.network.ContractRaw
+import io.definenulls.tronkit.network.ContractRaw
 import org.tron.protos.Protocol
 import org.tron.protos.contract.BalanceContract
 import org.tron.protos.contract.SmartContractOuterClass

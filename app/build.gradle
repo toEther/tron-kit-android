@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'io.horizontalsystems.tronkit'
+    namespace 'io.definenulls.tronkit'
     compileSdk 33
 
     defaultConfig {
-        applicationId "io.horizontalsystems.tronkit"
+        applicationId "io.definenulls.tronkit"
         minSdk 27
         targetSdk 33
         versionCode 1
@@ -53,7 +53,7 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.6.1'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1'
 
-    implementation 'com.github.horizontalsystems:hd-wallet-kit-android:66c2544'
+    implementation 'com.github.toEther:hd-wallet-kit-android:66c2544'
 
     implementation 'androidx.activity:activity-compose:1.7.1'
     implementation "androidx.compose.ui:ui:$compose_version"

@@ -1,4 +1,4 @@
-package io.horizontalsystems.tronkit.ui.theme
+package io.definenulls.tronkit.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

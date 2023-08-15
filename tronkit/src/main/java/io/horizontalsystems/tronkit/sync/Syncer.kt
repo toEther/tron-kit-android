@@ -1,13 +1,13 @@
-package io.horizontalsystems.tronkit.sync
+package io.definenulls.tronkit.sync
 
-import io.horizontalsystems.tronkit.TronKit.SyncError
-import io.horizontalsystems.tronkit.TronKit.SyncState
-import io.horizontalsystems.tronkit.account.AccountInfoManager
-import io.horizontalsystems.tronkit.database.Storage
-import io.horizontalsystems.tronkit.models.Address
-import io.horizontalsystems.tronkit.network.TronGridService
-import io.horizontalsystems.tronkit.network.TronGridService.TronGridServiceError
-import io.horizontalsystems.tronkit.transaction.TransactionManager
+import io.definenulls.tronkit.TronKit.SyncError
+import io.definenulls.tronkit.TronKit.SyncState
+import io.definenulls.tronkit.account.AccountInfoManager
+import io.definenulls.tronkit.database.Storage
+import io.definenulls.tronkit.models.Address
+import io.definenulls.tronkit.network.TronGridService
+import io.definenulls.tronkit.network.TronGridService.TronGridServiceError
+import io.definenulls.tronkit.transaction.TransactionManager
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

@@ -1,7 +1,7 @@
-package io.horizontalsystems.tronkit.contracts.trc20
+package io.definenulls.tronkit.contracts.trc20
 
-import io.horizontalsystems.tronkit.models.Address
-import io.horizontalsystems.tronkit.contracts.ContractMethod
+import io.definenulls.tronkit.models.Address
+import io.definenulls.tronkit.contracts.ContractMethod
 import java.math.BigInteger
 
 class TransferMethod(val to: Address, val value: BigInteger) : ContractMethod() {

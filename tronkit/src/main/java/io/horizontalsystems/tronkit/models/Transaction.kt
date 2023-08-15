@@ -1,9 +1,9 @@
-package io.horizontalsystems.tronkit.models
+package io.definenulls.tronkit.models
 
 import androidx.room.Entity
 import androidx.room.Ignore
 import androidx.room.PrimaryKey
-import io.horizontalsystems.tronkit.toRawHexString
+import io.definenulls.tronkit.toRawHexString
 
 @Entity
 data class Transaction(

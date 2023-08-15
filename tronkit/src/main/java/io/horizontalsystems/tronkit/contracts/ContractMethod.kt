@@ -1,4 +1,4 @@
-package io.horizontalsystems.tronkit.contracts
+package io.definenulls.tronkit.contracts
 
 open class ContractMethod {
     val methodId: ByteArray by lazy { ContractMethodHelper.getMethodId(methodSignature) }

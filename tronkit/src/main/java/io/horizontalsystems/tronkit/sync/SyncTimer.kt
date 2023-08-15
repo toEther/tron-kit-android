@@ -1,7 +1,7 @@
-package io.horizontalsystems.tronkit.sync
+package io.definenulls.tronkit.sync
 
-import io.horizontalsystems.tronkit.TronKit
-import io.horizontalsystems.tronkit.network.ConnectionManager
+import io.definenulls.tronkit.TronKit
+import io.definenulls.tronkit.network.ConnectionManager
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.flow
 import kotlin.time.DurationUnit

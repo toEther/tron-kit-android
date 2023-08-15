@@ -1,4 +1,4 @@
-package io.horizontalsystems.tronkit
+package io.definenulls.tronkit
 
 import java.math.BigInteger
 

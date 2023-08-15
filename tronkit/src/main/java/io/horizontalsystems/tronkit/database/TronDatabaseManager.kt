@@ -1,7 +1,7 @@
-package io.horizontalsystems.tronkit.database
+package io.definenulls.tronkit.database
 
 import android.content.Context
-import io.horizontalsystems.tronkit.network.Network
+import io.definenulls.tronkit.network.Network
 
 internal object TronDatabaseManager {
 

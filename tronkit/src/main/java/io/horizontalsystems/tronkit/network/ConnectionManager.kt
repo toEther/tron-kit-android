@@ -1,4 +1,4 @@
-package io.horizontalsystems.tronkit.network
+package io.definenulls.tronkit.network
 
 import android.content.Context
 import android.net.ConnectivityManager

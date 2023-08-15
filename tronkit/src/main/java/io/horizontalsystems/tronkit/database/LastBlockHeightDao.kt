@@ -1,7 +1,7 @@
-package io.horizontalsystems.tronkit.database
+package io.definenulls.tronkit.database
 
 import androidx.room.*
-import io.horizontalsystems.tronkit.models.LastBlockHeight
+import io.definenulls.tronkit.models.LastBlockHeight
 
 @Dao
 interface LastBlockHeightDao {

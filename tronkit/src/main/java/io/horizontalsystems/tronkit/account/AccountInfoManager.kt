@@ -1,8 +1,8 @@
-package io.horizontalsystems.tronkit.account
+package io.definenulls.tronkit.account
 
-import io.horizontalsystems.tronkit.database.Storage
-import io.horizontalsystems.tronkit.models.AccountInfo
-import io.horizontalsystems.tronkit.models.Trc20Balance
+import io.definenulls.tronkit.database.Storage
+import io.definenulls.tronkit.models.AccountInfo
+import io.definenulls.tronkit.models.Trc20Balance
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.update

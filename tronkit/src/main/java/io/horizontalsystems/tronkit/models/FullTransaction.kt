@@ -1,6 +1,6 @@
-package io.horizontalsystems.tronkit.models
+package io.definenulls.tronkit.models
 
-import io.horizontalsystems.tronkit.decoration.TransactionDecoration
+import io.definenulls.tronkit.decoration.TransactionDecoration
 
 class FullTransaction(
     val transaction: Transaction,

@@ -1,9 +1,9 @@
-package io.horizontalsystems.tronkit.contracts
+package io.definenulls.tronkit.contracts
 
-import io.horizontalsystems.tronkit.models.Address
-import io.horizontalsystems.tronkit.crypto.Utils
-import io.horizontalsystems.tronkit.toBigInteger
-import io.horizontalsystems.tronkit.toInt
+import io.definenulls.tronkit.models.Address
+import io.definenulls.tronkit.crypto.Utils
+import io.definenulls.tronkit.toBigInteger
+import io.definenulls.tronkit.toInt
 import java.math.BigInteger
 import kotlin.math.max
 

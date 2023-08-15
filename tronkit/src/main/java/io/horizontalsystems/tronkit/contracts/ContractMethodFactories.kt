@@ -1,6 +1,6 @@
-package io.horizontalsystems.tronkit.contracts
+package io.definenulls.tronkit.contracts
 
-import io.horizontalsystems.tronkit.toInt
+import io.definenulls.tronkit.toInt
 
 open class ContractMethodFactories {
 

@@ -1,7 +1,7 @@
-package io.horizontalsystems.tronkit.rpc
+package io.definenulls.tronkit.rpc
 
-import io.horizontalsystems.tronkit.hexStringToLongOrNull
-import io.horizontalsystems.tronkit.toHexString
+import io.definenulls.tronkit.hexStringToLongOrNull
+import io.definenulls.tronkit.toHexString
 
 
 sealed class DefaultBlockParameter {

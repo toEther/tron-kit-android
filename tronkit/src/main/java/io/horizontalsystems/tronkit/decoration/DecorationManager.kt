@@ -1,12 +1,12 @@
-package io.horizontalsystems.tronkit.decoration
+package io.definenulls.tronkit.decoration
 
-import io.horizontalsystems.tronkit.database.Storage
-import io.horizontalsystems.tronkit.models.Contract
-import io.horizontalsystems.tronkit.models.FullTransaction
-import io.horizontalsystems.tronkit.models.InternalTransaction
-import io.horizontalsystems.tronkit.models.Transaction
-import io.horizontalsystems.tronkit.models.Trc20EventRecord
-import io.horizontalsystems.tronkit.models.TriggerSmartContract
+import io.definenulls.tronkit.database.Storage
+import io.definenulls.tronkit.models.Contract
+import io.definenulls.tronkit.models.FullTransaction
+import io.definenulls.tronkit.models.InternalTransaction
+import io.definenulls.tronkit.models.Transaction
+import io.definenulls.tronkit.models.Trc20EventRecord
+import io.definenulls.tronkit.models.TriggerSmartContract
 
 class DecorationManager(
     private val storage: Storage

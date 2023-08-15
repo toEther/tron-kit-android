@@ -1,10 +1,10 @@
-package io.horizontalsystems.tronkit.decoration.trc20
+package io.definenulls.tronkit.decoration.trc20
 
-import io.horizontalsystems.tronkit.models.Address
-import io.horizontalsystems.tronkit.decoration.Event
-import io.horizontalsystems.tronkit.decoration.TokenInfo
-import io.horizontalsystems.tronkit.models.TransactionTag
-import io.horizontalsystems.tronkit.models.Trc20EventRecord
+import io.definenulls.tronkit.models.Address
+import io.definenulls.tronkit.decoration.Event
+import io.definenulls.tronkit.decoration.TokenInfo
+import io.definenulls.tronkit.models.TransactionTag
+import io.definenulls.tronkit.models.Trc20EventRecord
 import java.math.BigInteger
 
 class Trc20TransferEvent(

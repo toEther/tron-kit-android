@@ -1,4 +1,4 @@
-package io.horizontalsystems.tronkit.rpc
+package io.definenulls.tronkit.rpc
 
 open class DataJsonRpc(
         method: String,

@@ -1,4 +1,4 @@
-package io.horizontalsystems.tronkit
+package io.definenulls.tronkit
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -17,7 +17,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.google.accompanist.pager.ExperimentalPagerApi
 import com.google.accompanist.pager.HorizontalPager
 import com.google.accompanist.pager.rememberPagerState
-import io.horizontalsystems.tronkit.ui.theme.EmptyComposeMaterialTheme
+import io.definenulls.tronkit.ui.theme.EmptyComposeMaterialTheme
 import java.util.Date
 
 class MainActivity : ComponentActivity() {

@@ -1,15 +1,15 @@
-package io.horizontalsystems.tronkit.rpc
+package io.definenulls.tronkit.rpc
 
 import com.google.gson.TypeAdapter
 import com.google.gson.stream.JsonReader
 import com.google.gson.stream.JsonToken
 import com.google.gson.stream.JsonWriter
-import io.horizontalsystems.tronkit.models.Address
-import io.horizontalsystems.tronkit.hexStringToBigIntegerOrNull
-import io.horizontalsystems.tronkit.hexStringToByteArrayOrNull
-import io.horizontalsystems.tronkit.hexStringToIntOrNull
-import io.horizontalsystems.tronkit.hexStringToLongOrNull
-import io.horizontalsystems.tronkit.toHexString
+import io.definenulls.tronkit.models.Address
+import io.definenulls.tronkit.hexStringToBigIntegerOrNull
+import io.definenulls.tronkit.hexStringToByteArrayOrNull
+import io.definenulls.tronkit.hexStringToIntOrNull
+import io.definenulls.tronkit.hexStringToLongOrNull
+import io.definenulls.tronkit.toHexString
 import java.math.BigInteger
 
 class BigIntegerTypeAdapter(private val isHex: Boolean = true) : TypeAdapter<BigInteger?>() {

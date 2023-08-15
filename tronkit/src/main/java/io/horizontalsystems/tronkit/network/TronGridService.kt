@@ -1,16 +1,16 @@
-package io.horizontalsystems.tronkit.network
+package io.definenulls.tronkit.network
 
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import com.google.gson.JsonObject
 import com.google.gson.reflect.TypeToken
-import io.horizontalsystems.tronkit.hexStringToByteArray
-import io.horizontalsystems.tronkit.models.AccountInfo
-import io.horizontalsystems.tronkit.models.Address
-import io.horizontalsystems.tronkit.models.ChainParameter
-import io.horizontalsystems.tronkit.models.Trc20Balance
-import io.horizontalsystems.tronkit.rpc.*
-import io.horizontalsystems.tronkit.toRawHexString
+import io.definenulls.tronkit.hexStringToByteArray
+import io.definenulls.tronkit.models.AccountInfo
+import io.definenulls.tronkit.models.Address
+import io.definenulls.tronkit.models.ChainParameter
+import io.definenulls.tronkit.models.Trc20Balance
+import io.definenulls.tronkit.rpc.*
+import io.definenulls.tronkit.toRawHexString
 import io.reactivex.Single
 import kotlinx.coroutines.rx2.await
 import okhttp3.Interceptor

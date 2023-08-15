@@ -1,7 +1,7 @@
-package io.horizontalsystems.tronkit.decoration
+package io.definenulls.tronkit.decoration
 
-import io.horizontalsystems.tronkit.models.InternalTransaction
-import io.horizontalsystems.tronkit.models.TriggerSmartContract
+import io.definenulls.tronkit.models.InternalTransaction
+import io.definenulls.tronkit.models.TriggerSmartContract
 
 interface ITransactionDecorator {
     fun decoration(
